@@ -2,9 +2,9 @@
 
 namespace Sitesurfer\FarmSimManager;
 
+use Sitesurfer\FarmSimManager\Commands\FarmSimManagerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sitesurfer\FarmSimManager\Commands\FarmSimManagerCommand;
 
 class FarmSimManagerServiceProvider extends PackageServiceProvider
 {
